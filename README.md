@@ -60,11 +60,15 @@ For this part the \color{red}{\verb|weekdays()|}weekdays() function may be of so
 #Submitting the Assignmentless 
 To submit the assignment:
 
-1.Commit your completed \color{red}{\verb|PA1_template.Rmd|}PA1_template.Rmd file to the \color{red}{\verb|master|}master branch of your git repository (you should already be on the \color{red}{\verb|master|}master branch unless you created new ones)
-2.Commit your PA1_template.md and PA1_template.html files produced by processing your R markdown file with knit2html() function in R (from the knitr package) by running the function from the console.
-3.If your document has figures included (it should) then they should have been placed in the figure/ directory by default (unless you overrided the default). Add and commit the figure/ directory to your git repository so that the figures appear in the markdown file when it displays on github.
-4.Push your \color{red}{\verb|master|}master branch to GitHub.
-5.Submit the URL to your GitHub repository for this assignment on the course web site.
+1. Commit your completed \color{red}{\verb|PA1_template.Rmd|}PA1_template.Rmd file to the \color{red}{\verb|master|}master branch of your git repository (you should already be on the \color{red}{\verb|master|}master branch unless you created new ones)
+
+2. Commit your PA1_template.md and PA1_template.html files produced by processing your R markdown file with knit2html() function in R (from the knitr package) by running the function from the console.
+
+3. If your document has figures included (it should) then they should have been placed in the figure/ directory by default (unless you overrided the default). Add and commit the figure/ directory to your git repository so that the figures appear in the markdown file when it displays on github.
+
+4. Push your \color{red}{\verb|master|}master branch to GitHub.
+
+5. Submit the URL to your GitHub repository for this assignment on the course web site.
 
 In addition to submitting the URL for your GitHub repository, you will need to submit the 40 character SHA-1 hash (as string of numbers from 0-9 and letters from a-f) that identifies the repository commit that contains the version of the files you want to submit. You can do this in GitHub by doing the following
 
