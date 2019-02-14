@@ -45,7 +45,7 @@ daily_steps <- aggregate(steps ~ date, data, sum)
 ```r
 hist(daily_steps$steps, main = paste("Total steps per day"), col="blue", xlab="No. of steps")
 ```
-<img src="https://github.com/Utkarsha17/Reproducible-Research/blob/master/plot1.png", width=800 />
+![]<img src="https://github.com/Utkarsha17/Reproducible-Research/blob/master/plot1.png", width=800 />
 <!-- -->
 
 3.Calculate and report the mean and median of the total number of steps taken per day
