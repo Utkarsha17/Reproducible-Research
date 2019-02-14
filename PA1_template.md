@@ -134,7 +134,7 @@ hist(imputed_steps$steps, col="red", xlab="No of steps", ylab="Frequency", main=
 hist(daily_steps$steps, col="blue", xlab="No of steps", ylab="Frequency", main="No of steps(Original data)")
 ```
 
-[](https://github.com/Utkarsha17/Reproducible-Research/blob/master/plot3.png)<!-- -->
+![](https://github.com/Utkarsha17/Reproducible-Research/blob/master/plot3.png)<!-- -->
 
 ```r
 #Calculate the mean and median total number of steps taken per day
@@ -186,5 +186,4 @@ library(lattice)
 xyplot(imputed_steps$steps ~ imputed_steps$interval|imputed_steps$wk, main="Average Steps per Day by Interval",xlab="Interval", ylab="Steps",layout=c(1,2), type="l")
 ```
 
-[](https://github.com/Utkarsha17/Reproducible-Research/blob/master/plot4.png)<!-- -->
-
+![](https://github.com/Utkarsha17/Reproducible-Research/blob/master/plot4.png)<!-- -->
