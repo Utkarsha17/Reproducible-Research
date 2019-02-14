@@ -3,9 +3,13 @@ title: "Project1"
 author: "Utkarsha Patil"
 date: "February 13, 2019"
 output:
-  html_document: default
+  html_document: 
+    fig_caption: yes
+    keep_md: yes
+    toc: yes
   pdf_document: default
   word_document: default
+  md_document: default
 ---
 
 ##Introduction
