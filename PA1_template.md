@@ -45,8 +45,8 @@ daily_steps <- aggregate(steps ~ date, data, sum)
 ```r
 hist(daily_steps$steps, main = paste("Total steps per day"), col="blue", xlab="No. of steps")
 ```
-
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+<img src="https://github.com/Utkarsha17/Reproducible-Research/blob/master/plot1.png", width=800 />
+<!-- -->
 
 3.Calculate and report the mean and median of the total number of steps taken per day
 
@@ -113,7 +113,6 @@ NA_data <- sum(is.na(data$steps))
 ```r
 #Aggregating mean of original data for 5 minute interval 
 mean_i <- aggregate(steps ~ interval, data, mean)
-mean_i
 ```
 
 ```
