@@ -84,7 +84,7 @@ interval_steps <- aggregate(steps ~ interval, data, mean)
 plot(interval_steps$interval, interval_steps$steps, type="l", xlab="Interval", ylab="No. of steps", main="Avg no. steps taken per day by interval")
 ```
 
-[](https://github.com/Utkarsha17/Reproducible-Research/blob/master/plot2.png)<!-- -->
+![](https://github.com/Utkarsha17/Reproducible-Research/blob/master/plot2.png)<!-- -->
 
 2.Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
